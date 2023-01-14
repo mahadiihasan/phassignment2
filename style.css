@@ -1,0 +1,67 @@
+.main-sec{
+
+    background-color: #fff4e7;
+}
+.header-section{
+
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.navbar{
+
+    display: flex;
+}
+
+.header-text{
+
+    width: 50%;
+
+}
+
+.menu{
+
+    display: flex;
+    width: 50%;
+    justify-content: end;
+    gap: 40px;
+}
+
+.menu a{
+
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+/* brand new class */
+
+.brand-class {
+
+    text-align: center;
+}
+
+.brand-class h1,p{
+
+    padding: 5px;
+}
+
+.explore-btn{
+
+    padding: 14px 18px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #ff900e;
+    color: white;
+    margin-bottom: 30px;
+}
+
+#banner-img{
+
+    display: block;
+    height: 100%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+}
