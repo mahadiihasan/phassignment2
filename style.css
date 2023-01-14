@@ -2,7 +2,7 @@
 
     background-color: #fff4e7;
 }
-.header-section, .grid-class{
+.header-section, .grid-class, .gf-class, .fact{
 
     margin-left: 150px;
     margin-right: 150px;
@@ -44,6 +44,18 @@
 .brand-class h1,p{
 
     padding: 5px;
+}
+
+.brand-class p{
+
+    font-size: 13px;
+    color: grey;
+}
+
+.grid-second-div p{
+
+    font-size: 13px;
+    color: grey;
 }
 
 .explore-btn, .second-button{
@@ -100,4 +112,127 @@
     flex-direction: column; 
     justify-content: center;
     text-align: justify;
+}
+
+
+/* girlfriend section */
+
+.gf-class{
+
+    display: flex;
+    padding-top: 100px;
+}
+.gf-class-2{
+
+    max-width: 40%;
+}
+
+/* .gf-class-2 > div{
+
+    padding: 5px;
+} */
+
+.gf-class-3{
+    max-width: 60%;
+}
+
+.gf-class-3 > img{
+
+    width: 90%;
+    height: 75%;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.gf-class-special{
+
+    width: 100%;
+    height: 70px;
+    font-size: larger;
+    border-left: 5px #ff900e solid;
+    border-width: 5px;
+    padding-left: 10px;    
+}
+
+.gf-class span{
+
+    color: black;
+    font-weight: bold;
+}
+
+.gf-class p{
+
+    font-size: 13px;
+    color: grey;
+}
+
+
+.gf-class-same{
+
+    width: 100%;
+    height: fit-content;
+    box-shadow: 0px 5px 10px 7px whitesmoke;
+    border-color: whitesmoke;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.gf-class-same > p{
+
+    margin-top: 0px;
+}
+
+#gf-button{
+
+    position: absolute;
+    margin-left: 50px;
+    margin-top: -70px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #ff900e;
+    color: white;
+    padding: 30px;
+    font-size: 15px;
+}
+
+#gf-button span{
+
+    font-size: 40px;
+    color: white;
+}
+
+/* Some fact class */
+
+.fact-inner{
+
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+
+.fact-inner div{
+
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-color: #ff900e;
+    border-radius: 10px;
+    border-width: 1px;
+}
+
+.fact-inner{
+
+    text-align: center;
+    margin: 70px 0px 10px 50px;
+}
+
+.fact-inner img{
+    margin-top: 40px;
+}
+
+.fact p{
+
+    font-size: 13px;
+    color: grey;
 }
