@@ -3,7 +3,7 @@
 }
 
 .main-sec{
-
+    padding-top: 50px;
     background-color: #fff4e7;
 }
 .header-section, .grid-class, .gf-class, .fact, .sponsor, .fcontainer, .foot-class{
@@ -20,7 +20,6 @@
 .header-text{
 
     width: 50%;
-
 }
 
 .menu{
@@ -42,11 +41,14 @@
 
 .brand-class {
 
+    margin-top: 50px;
+    margin-top: 20px;
     text-align: center;
 }
 
 .brand-class h1,p{
 
+    margin: 20px 0;
     padding: 5px;
 }
 
@@ -234,10 +236,17 @@
     margin-top: 40px;
 }
 
+
 .fact p{
 
+    text-align: center;
     font-size: 13px;
     color: grey;
+}
+
+.fact-head{
+
+    text-align: center;
 }
 
 /* Sponsor */
@@ -261,6 +270,12 @@
     width: 70%;
     height: 100%;
     filter: grayscale(100%);
+}
+
+.fact-inner div:hover{
+
+    background-color: #ff900e;
+    color: white;
 }
 
 /* extra section */
@@ -287,6 +302,115 @@
     text-align: center;
     background-color: #fff4e7;
     border-radius: 8px;
+}
+
+
+/* Responsive for mobile device */
+
+
+@media screen and (max-width: 575px) {
+
+    
+    .navbar{
+        
+        margin: 0;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .menu{
+
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin: auto;
+        padding: auto;
+        
+    }
+    .header-text{
+
+        width: 100%;
+        text-align: center;
+        font-size: small;
+    }
+    /* .navbar a{
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+    } */
+
+    .grid-class{
+    
+        display: block;
+        width: 100%;
+    }
+
+    .grid-img{
+
+        display: grid;
+        max-width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+
+    .grid-header{
+
+        text-align: center;
+        margin-top: 20px;
+        font-size: larger;
+    }
+
+    .btn{
+
+        text-align: center;
+    }
+
+    .gf-class{
+
+        display: block;
+        width: 100%;
+    }
+
+
+    .gf-class-3 img{
+
+        width: 100%;
+        display: grid;
+        margin: 20px 0;
+        grid-template-columns: repeat(1, 1fr);
+    
+    }
+
+    
+    .gf-class-2{
+        
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .fact{
+
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .fact-inner{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fact-inner div{
+        margin-bottom: 10px;
+    }
+
+    .sponsor-inner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .sponsor-inner div{
+        margin-bottom: 10px;
+    }
 }
 
 
